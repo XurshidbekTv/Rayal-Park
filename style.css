@@ -1,0 +1,134 @@
+@import url(fonts.css);
+
+
+/* fontlar */
+.font-family-roboto{
+    font-family: 'roboto';
+}
+.font-family-gelasio{
+    font-family: 'gelasio';
+}
+/* fontlar tugashi */
+
+/* navbar va heder  */
+.header{
+    width: 100%;
+    min-height: 690px;
+    background: url(img/nav-img.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.link{
+    list-style: georgian;
+    display: flex;
+    justify-content:space-around;
+    gap: 18%;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-family: 'gelasio';
+}
+.link a:hover{
+    color: #1B75BB;
+}
+/* navbar va header tugashi */
+.margin-top-20{
+    margin-top: 16%;
+}
+.header-qator{
+    position: relative;
+}
+.header-ilova{
+    margin-top: 2%;
+}
+.list-unstyled{
+    gap: 60px;
+}
+/* section */
+.section{
+    margin-top: 13%;
+}
+/* section end */
+.width-90{
+    width: 24%;
+}
+.katta{
+    position: relative;
+}
+.kichik{
+    position: absolute;
+    height: 33%;
+    width: 40%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1400.98px){
+    .header-ilova{
+        margin-top:5% ;
+    }
+    
+}
+@media(max-width:1200.98px){
+    .header-ilova{
+        margin-top:9% ;
+    }
+}
+@media(max-width:992.98px){
+    .header-ilova{
+        margin-top:17% ;
+    }
+    .width-90{
+        width: 45%;
+    }
+    
+}
+@media (max-width:768.98px){
+    .header-qator{
+        margin-top: 40%;
+    }
+   .header-ilova{
+    margin-top: 1%;
+   }
+   .section{
+    margin-top: 25%;
+   }
+   .kichik{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+}
+@media(max-width:576.98px){
+    .header-ilova{
+        margin-top: 1%;
+    }
+    .section{
+        margin-top: 30%;
+    }
+    .width-90{
+        width: 90%;
+    }
+    
+}
+@media(max-width:448.98px){
+    .section{
+        margin-top: 35%;
+       }
+}
